@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/text_view_app_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Useless App"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <!-- CardView for Posts -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_posts"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view_app_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_posts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Posts"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/image_view_posts"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/posts" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- CardView for Photos -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_photos"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view_posts"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_photos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Photos"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/image_view_photos"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/photos" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- CardView for Users -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view_users"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/card_view_photos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        app:cardCornerRadius="24dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_view_users"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Users"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/image_view_Users"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:src="@drawable/users" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

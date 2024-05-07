@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="12dp"
+    app:cardCornerRadius="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/text_view_user_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="User Info:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_info_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the username"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user ID"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/text_view_user_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_id"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user email"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/text_view_user_company_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_email"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="User's company info:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_company_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_company_info_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user's company name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_company_catch_phrase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_company_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user's company catch phrase"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_company_catch_bs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_company_catch_phrase"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user's company bs"
+            android:textSize="16sp" />
+
+
+        <TextView
+            android:id="@+id/text_view_user_address_info_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_company_catch_bs"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="User's address info:"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_street_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_address_info_title"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user's street name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_street_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user's city name"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_view_user_zip_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_city_name"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="this will be the user's zip code"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/button_back_to_user_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_user_zip_code"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:text="Back to user list"
+            android:textSize="16sp" />
+        <Button
+            android:id="@+id/button_back_to_main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button_back_to_user_list"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:text="Back to main menu"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
